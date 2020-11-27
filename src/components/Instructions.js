@@ -1,7 +1,6 @@
 import React from "react";
 
-
-export default function Instructions({ title, steps }) {
+export default function Instructions({ title = "untitled", steps = [] }) {
   return (
     <section className="instructions">
       <h2>{title}</h2>
